@@ -8,6 +8,7 @@ module.exports = {
     },
 
     colors: {
+      "transparent" : "transparent",
       "twitter-blue-default" : "#1D9BF0",
       "twitter-blue-hover" : "#1871CA",
       "twitter-blue-disabled" : "#1E5D87",
@@ -19,7 +20,6 @@ module.exports = {
       error : "#8B141A",
       "background-color" : "#040404",
       "stroke-border": "var(--stroke, rgba(29, 155, 240, 0.24))",
-      "neutral-border": "var(--neutral-700, #404040)",
 
       neutral : {
         50: "#F9F9F9",
@@ -49,16 +49,23 @@ module.exports = {
 
       width: {
         '84': '334px',
+        '88': '348px',
+        '100': '426px',
+        '105': '434px',
         '110': '442px',
         '172': '598px',
       },
 
       height: {
+        '0.75': '3px',
+        '9.5': '38px',
+        '9.55': '39px',
         '15': '58px'
       },
 
       borderWidth: {
-        '1': '1px'
+        '1': '1px',
+        '3': '3px'
       },
 
       spacing: {

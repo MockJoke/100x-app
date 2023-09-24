@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Input Components - 100x app</title>
+  </head>
+  <body
+    class="flex flex-col my-5 bg-background-color justify-center items-center min-h-screen min-w-screen font-inter"
+  >
+    <!-- Label Input Component -->
+    <fieldset
+      class="flex group w-100 px-3 py-4 gap-2.5 rounded border-1 border-neutral-500 focus-within:border-twitter-blue-default items-center"
+    >
+      <legend
+        class="text-xs font-medium text-neutral-500 px-2 group-focus-within:text-twitter-blue-default"
+      >
+        Label
+      </legend>
+      <input
+        type="text"
+        placeholder="label"
+        class="peer bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none grow"
+      />
+      <img
+        class="flex-shrink-0 peer-focus:opacity-100 opacity-0 h-6 w-6"
+        src="../public/images/valid-input.svg"
+      />
+    </fieldset>
+
+    <div class="my-5"></div>
+
+    <!-- Tweet Input Component -->
+    <div class="flex gap-3">
+      <img class="flex-shrink-0" src="../public/images/user-avatar.png" />
+      <input
+        type="text"
+        placeholder="What's happening?!"
+        class="flex flex-shrink-0 bg-transparent w-105 text-xl font-normal text-neutral-50 placeholder:text-neutral-500 grow focus:outline-none self-stretch items-center"
+      />
+    </div>
+
+    <div class="my-5"></div>
+
+    <!-- Search Input Component -->
+    <div
+      class="group flex bg-searchbar-fill w-88 h-9.55 gap-3.75 px-4 py-2.5 rounded-full border-1 border-searchbar-fill focus-within:border-twitter-blue-default"
+    >
+      <!-- <img
+        class="flex-shrink-0 focus-within:fill-twitter-blue-default"
+        src="../public/images/search-icon.svg"
+      /> -->
+      <svg
+        class="fill-[#737373] group-focus-within:fill-twitter-blue-default"
+        xmlns="http://www.w3.org/2000/svg"
+        width="17"
+        height="17"
+        viewBox="0 0 17 17"
+        fill="none"
+      >
+        <path
+          d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+        />
+      </svg>
+      <input
+        type="text"
+        placeholder="Search"
+        class="bg-transparent w-full font-chirp text-base font-normal text-neutral-50 placeholder:text-neutral-600 grow focus:outline-none"
+      />
+    </div>
+  </body>
+</html>
