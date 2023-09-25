@@ -19,6 +19,7 @@ module.exports = {
       success : "#00BE74",
       error : "#8B141A",
       "background-color" : "#040404",
+      "light-background-color" : "#40596A",
       "stroke-border": "var(--stroke, rgba(29, 155, 240, 0.24))",
 
       neutral : {
@@ -53,6 +54,8 @@ module.exports = {
         '100': '426px',
         '105': '434px',
         '110': '442px',
+        '127': '482px',
+        '140': '512px',
         '172': '598px',
       },
 
@@ -60,7 +63,9 @@ module.exports = {
         '0.75': '3px',
         '9.5': '38px',
         '9.55': '39px',
-        '15': '58px'
+        '15': '58px',
+        '55.75': '223px',
+        '90': '355px'
       },
 
       borderWidth: {
@@ -71,6 +76,10 @@ module.exports = {
       spacing: {
         '3.75' : '15px',
         '23': '93px'
+      },
+
+      fontSize: {
+        'normal': '15px'
       }
     },
   },
