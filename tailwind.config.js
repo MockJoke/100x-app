@@ -49,6 +49,7 @@ module.exports = {
       },
 
       width: {
+        '43': '172px',
         '84': '334px',
         '88': '348px',
         '100': '426px',
@@ -80,7 +81,12 @@ module.exports = {
       },
 
       fontSize: {
-        'normal': '15px'
+        'normal': '15px',
+        '2.25xl': '26px'
+      },
+
+      gap: {
+        '25': '100px'
       }
     },
   },
